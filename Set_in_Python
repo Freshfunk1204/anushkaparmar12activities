@@ -1,8 +1,10 @@
 sentence= "Hey I am walking here I am walking here o captain my captain water water everywhere nor a drop to drink"
-sl=sentence.split()
-print("sentence_list= ",sl,"\n")
+s=sentence.split()
+print("sentence_list= ",s,"\n")
 
-s=set(sl)
-print("sentence_set= ",s,"\n")
+so=set(s)
+print("sentence_set= ",so,"\n")
 
-print("num_unique: ",len(s),"\n")
+print("num_unique: ",len(so),"\n")
+
+
