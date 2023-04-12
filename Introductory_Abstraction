@@ -42,7 +42,7 @@ def earthquake(n):
     elif 4 <= n < 5:
         return "Light"
     elif 5 <= n < 6:
-        return "Modernte"
+        return "Moderate"
     elif 6 <= n < 7:
         return "Strong"
     elif 7 <= n < 8:
