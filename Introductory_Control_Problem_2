@@ -14,3 +14,5 @@ elif sum==Nint:
     print('Sum of divisors and number is equal')
 else:
     print('The number is deficient')
+
+    
