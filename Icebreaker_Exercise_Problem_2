@@ -14,3 +14,4 @@ elif 3e17 <= freq < 3e19:
     print("X-Rays")
 else:
     print("Gamma Rays")
+    
