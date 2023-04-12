@@ -21,7 +21,7 @@ sgst = food_amount * tax_rate / 2
 tip_amount = food_amount * 0.1
 
 # Compute total amount
-total_amount = room_tariff + food_amount + cgst + sgst + tip_amount
+total_foodamount = food_amount + cgst + sgst + tip_amount
 
 # Print the bill
 print("Room Tariff: {:.2f}".format(room_tariff))
@@ -29,4 +29,4 @@ print("CGST: {:.2f}".format(cgst))
 print("SGST: {:.2f}".format(sgst))
 print("Food Amount: {:.2f}".format(food_amount))
 print("Tip Amount: {:.2f}".format(tip_amount))
-print("Total Amount: {:.2f}".format(total_amount))
+print("Total Amount for the Food: {:.2f}".format(total_foodamount))
