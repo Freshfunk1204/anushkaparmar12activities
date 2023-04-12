@@ -13,6 +13,8 @@ print("Team1 Net Run Rate=",round(team1_Nrr,2))
 team2_Nrr =(team2_scored/team2_faced)-(team2_conceded/team1_bowled)
 print("Team2 Net Run Rate=",round(team2_Nrr,2))
 
+
+
 if team1_Nrr>team2_Nrr:
     print("Team1 has a higher Net Run Rate and tops the points table.")
 elif team2_Nrr>team1_Nrr:
