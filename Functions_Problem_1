@@ -9,3 +9,6 @@ def mem(n,a):
 n=int(input('Cost of your item taken: '))
 a=input('Are you a prime member? Yes or No: ')
 print(mem(n,a))
+
+
+
